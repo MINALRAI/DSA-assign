@@ -3,12 +3,12 @@ class a1q4
 {
 	public static void main(String args[])
 	{
-		Scanner in = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		ArrayList<String> arr = new ArrayList<String>();
 		System.out.println("Start adding Sentences :");
 		for(int i=0; ; i++)
 		{
-			String s=in.nextLine();
+			String s=sc.nextLine();
 			if(s.equals(""))
 			{
 				break;
