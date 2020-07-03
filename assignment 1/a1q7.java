@@ -3,14 +3,14 @@ class a1q7
 {
 	public static void main(String args[])
 	{
-		Scanner in = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the Length of array :");
-		int n=in.nextInt();
+		int n=sc.nextInt();
 		int arr[] = new int[n];
 		for(int a=0; a<arr.length; a++)
 		{
 			System.out.print("arr["+a+"]=");
-			arr[a]=in.nextInt();
+			arr[a]=sc.nextInt();
 		}
 		a1q7 ob = new a1q7();
 		ob.findOddPair(arr);
