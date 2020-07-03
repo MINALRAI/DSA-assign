@@ -9,11 +9,11 @@ class a1q5
 		boolean k=ob.isEven(sc.nextInt());
 		if(k)
 		{
-			System.out.println("The numbe is Even");
+			System.out.println("The number is Even");
 		}
 		else
 		{
-			System.out.println("The numbe is odd");
+			System.out.println("The number is odd");
 		}
 	}
 	public boolean isEven(int n) 
