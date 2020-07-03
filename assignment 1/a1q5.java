@@ -4,9 +4,9 @@ class a1q5
 	public static void main(String args[])
 	{
 		a1q5 ob = new a1q5();
-		Scanner in = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the number :");
-		boolean k=ob.isEven(in.nextInt());
+		boolean k=ob.isEven(sc.nextInt());
 		if(k)
 		{
 			System.out.println("The numbe is Even");
