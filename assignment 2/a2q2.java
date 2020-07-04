@@ -26,22 +26,22 @@ class Complex
     }
     public static void main(String args[])
     {
-        Scanner in =  new Scanner(System.in);
+        Scanner sc =  new Scanner(System.in);
         Complex ob = new Complex();
         Complex ob1 = new Complex();
         Complex ob2 = new Complex();
         double r, i;
         System.out.println("Enter values for the First Number :");
         System.out.print("Enter the Real Value :");
-        r=in.nextDouble();
+        r=sc.nextDouble();
         System.out.print("Enter the Imaginary Value :");
-        i=in.nextDouble();
+        i=sc.nextDouble();
         ob1.setData(r,i);
         System.out.println("Enter values for the Second Number :");
         System.out.print("Enter the Real Value :");
-        r=in.nextDouble();
+        r=sc.nextDouble();
         System.out.print("Enter the Imaginary Value :");
-        i=in.nextDouble();
+        i=sc.nextDouble();
         ob2.setData(r,i);
         Complex obNew=ob.add(ob1, ob2);
         System.out.print("Sum = ");
