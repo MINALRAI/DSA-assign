@@ -3,7 +3,7 @@ public class a2q3
 {
 	public static void main(String args[])
 	{
-		Scanner in = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		Exam ob[] = new Exam[5];
 		//intializing objects to avoid null point exception
 		for(int i=0; i<5; i++)
@@ -14,18 +14,18 @@ public class a2q3
 		{
 			System.out.println("For Student 1 :");
 			System.out.println("Enter Student Name :");
-			String name=in.nextLine();
+			String name=sc.nextLine();
 			System.out.println("Enter Roll Number :");
-			int roll_number=in.nextInt();
+			int roll_number=sc.nextInt();
 			System.out.println("Enter Couse :");
-			String course=in.nextLine();
+			String course=sc.nextLine();
 			System.out.println("Enter Mark 1 :");
-			int mark1=in.nextInt();
+			int mark1=sc.nextInt();
 			System.out.println("Enter Mark 2 :");
-			int mark2=in.nextInt();
+			int mark2=sc.nextInt();
 			System.out.println("Enter Mark 3 :");
-			int mark3=in.nextInt();
-			in.nextLine();
+			int mark3=sc.nextInt();
+			sc.nextLine();
 			ob[i].input_Student(roll_number,name,course);
 			ob[i].input_Marks(mark1, mark2, mark3);
 		}
