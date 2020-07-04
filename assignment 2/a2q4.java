@@ -3,13 +3,13 @@ public class a2q4
 {
 	public static void main(String args[])
 	{
-		Scanner in = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		CircleType ob = new CircleType();
 		System.out.println("Enter center of Circle (First x, Then y) : ");
-		double x=in.nextDouble();
-		double y=in.nextDouble();
+		double x=sc.nextDouble();
+		double y=sc.nextDouble();
 		System.out.print("Enter radius of Circle : ");
-		double r=in.nextDouble();
+		double r=sc.nextDouble();
 		ob.setCentre(x, y);
 		ob.setRadius(r);
 		ob.showPoint();
