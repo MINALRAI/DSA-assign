@@ -3,19 +3,19 @@ public class a2q5
 {
 	public static void main(String args[])
 	{
-		Scanner in = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter Student\'s Name : ");
-		String name=in.nextLine();
+		String name=sc.nextLine();
 		System.out.print("Enter Student\'s Age : ");
-		int age=in.nextInt();
-		in.nextLine();
+		int age=sc.nextInt();
+		sc.nextLine();
 		Student s = new Student(name, age);
 		System.out.print("Enter Student\'s Course : ");
-		s.setCourse(in.nextLine());
+		s.setCourse(sc.nextLine());
 		System.out.print("Enter Student\'s Roll Number : ");
-		s.setRollNumber(in.nextInt());
+		s.setRollNumber(sc.nextInt());
 		System.out.print("Enter Student\'s Marks : ");
-		s.setMarks(in.nextInt());
+		s.setMarks(sc.nextInt());
 		s.display();
 	}
 }
