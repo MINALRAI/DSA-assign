@@ -4,9 +4,9 @@ public class demo
 {
     public static void main(String args[])
     {
-        Scanner in = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Sales Ammount :");
-        double sales=in.nextDouble();
+        double sales=sc.nextDouble();
         Comission ob = new Comission(sales);
         String res=ob.getComission();
         if(res.equals("Invalid Input")==false)
