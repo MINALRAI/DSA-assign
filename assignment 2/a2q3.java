@@ -17,7 +17,7 @@ public class a2q3
 			String name=sc.nextLine();
 			System.out.println("Enter Roll Number :");
 			int roll_number=sc.nextInt();
-			System.out.println("Enter Couse :");
+			System.out.println("Enter Course :");
 			String course=sc.nextLine();
 			System.out.println("Enter Mark 1 :");
 			int mark1=sc.nextInt();
