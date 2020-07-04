@@ -39,16 +39,16 @@ public class Test
 {
 	public static void main(String args[])
 	{
-		Scanner in = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the Name of the Employee :");
-		String name=in.nextLine();
+		String name=sc.nextLine();
 		System.out.print("Enter the Employee ID : ");
-		String id=in.nextLine();
+		String id=sc.nextLine();
 		System.out.print("Enter the Employee Salary : ");
-		double salary=in.nextDouble();
+		double salary=sc.nextDouble();
 		Manager ob = new Manager(id, name, salary);
 		System.out.print("Enter the Amount of Bonus :");
-		ob.giveBonus(in.nextDouble());
+		ob.giveBonus(sc.nextDouble());
 		ob.displayEmp();
 	}
 }
