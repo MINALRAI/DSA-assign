@@ -27,11 +27,11 @@ public class a2q7
 {
 	public static void main(String args[])
 	{
-		Scanner in = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the Name of the Person : ");
-		String name=in.nextLine();
+		String name=sc.nextLine();
 		System.out.print("Enter the Max Count : ");
-		int maxcount=in.nextInt();
+		int maxcount=sc.nextInt();
 		prog7 ob = new prog7(name, maxcount);
 		ob.display();
 	}
