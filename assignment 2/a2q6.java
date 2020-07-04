@@ -3,22 +3,22 @@ class a2q6
 {
 	public static void main(String args[])
 	{
-		Scanner in = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the side of Square : ");
-		double s=in.nextDouble();
+		double s=sc.nextDouble();
 		Shape ob = null;
 		ob = new Square();
 		double ans=ob.area(s,0);
 		System.out.println("Area of Square : "+ans);
 		System.out.print("Enter the radius of Circle : ");
-		s=in.nextDouble();
+		s=sc.nextDouble();
 		ob = new Circle();
 		ans=ob.area(s,0);
 		System.out.println("Area of Circle : "+ans);
 		System.out.print("Enter the base length of Triangle : ");
-		s=in.nextDouble();
+		s=sc.nextDouble();
 		System.out.print("Enter the height length of Triangle : ");
-		double t=in.nextDouble();
+		double t=sc.nextDouble();
 		ob = new Triangle();
 		ans=ob.area(s,t);
 		System.out.println("Area of Triangle : "+ans);
